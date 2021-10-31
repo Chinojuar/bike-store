@@ -1,7 +1,24 @@
+.barra-header{
+  background-image:  url("../../../../assets/images/fondoCarretera.png");
+}
+
 nav > a {
   padding: 5px;
   text-decoration: none;
+  margin-left: 100px;
+  width: 150px;
+  color: white;
 }
 nav > a.active {
-  background-color: blue;
+  background-color: #FFEB3B;
+}
+
+.header-row{
+  width: 100%;
+}
+
+.carrito{
+  margin-left: 1190px;
+  width: 150px;
+  margin-top: 12px;
 }
