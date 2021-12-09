@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { CartComponent } from './shared/components/cart/cart.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -36,7 +37,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FormsModule,
     SharedModule,
     CoreModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule 
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
